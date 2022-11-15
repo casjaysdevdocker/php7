@@ -1,6 +1,7 @@
 FROM casjaysdevdocker/alpine:latest AS build
 
 ARG ALPINE_VERSION="v3.16"
+ARG PHP_VERSION="php7"
 
 ARG LICENSE="MIT"
 ARG DEFAULT_DATA_DIR="/usr/local/share/template-files/data"
