@@ -1,6 +1,6 @@
 FROM casjaysdevdocker/alpine:latest AS build
 
-ARG ALPINE_VERSION="v3.16"
+ARG ALPINE_VERSION="edge"
 ARG PHP_VERSION="php7"
 
 ARG LICENSE="MIT"
